@@ -1,0 +1,11 @@
+[project]
+name = "taski"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "django==5.1.1",
+    "django-cors-headers==4.6.0",
+    "djangorestframework==3.15.2",
+    "gunicorn==23.0.0",
+    "psycopg2-binary==2.9.11",
+]
